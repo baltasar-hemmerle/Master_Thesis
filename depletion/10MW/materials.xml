@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="UROX" depletable="true" volume="199503.69987356625" temperature="968">
+    <density value="10412.0" units="kg/m3"/>
+    <nuclide name="O16" ao="1.999242"/>
+    <nuclide name="O17" ao="0.000758"/>
+    <nuclide name="U235" ao="0.2"/>
+    <nuclide name="U238" ao="0.8"/>
+    <sab name="c_U_in_UO2"/>
+  </material>
+  <material id="2" name="UROX" depletable="true" volume="342006.34264039923" temperature="968">
+    <density value="10412.0" units="kg/m3"/>
+    <nuclide name="O16" ao="1.999242"/>
+    <nuclide name="O17" ao="0.000758"/>
+    <nuclide name="U235" ao="0.2"/>
+    <nuclide name="U238" ao="0.8"/>
+    <sab name="c_U_in_UO2"/>
+  </material>
+  <material id="3" name="Gap Helium" temperature="928">
+    <density value="0.973" units="kg/m3"/>
+    <nuclide name="He3" ao="2e-06"/>
+    <nuclide name="He4" ao="0.999998"/>
+  </material>
+  <material id="4" name="Zircaloy-4" temperature="916">
+    <density value="6501" units="kg/m3"/>
+    <nuclide name="O16" wo="0.001249496518284918"/>
+    <nuclide name="O17" wo="5.034817150822443e-07"/>
+    <nuclide name="Cr50" wo="4.173686622718313e-05"/>
+    <nuclide name="Cr52" wo="0.000836993623513459"/>
+    <nuclide name="Cr53" wo="9.673586818675183e-05"/>
+    <nuclide name="Cr54" wo="2.4533642072606143e-05"/>
+    <nuclide name="Fe54" wo="0.00011855672267684395"/>
+    <nuclide name="Fe56" wo="0.0019299321043708116"/>
+    <nuclide name="Fe57" wo="4.5367740887167366e-05"/>
+    <nuclide name="Fe58" wo="6.143432065177235e-06"/>
+    <nuclide name="Zr90" wo="0.4975030719418412"/>
+    <nuclide name="Zr91" wo="0.10970127724609835"/>
+    <nuclide name="Zr92" wo="0.1695240925103877"/>
+    <nuclide name="Zr94" wo="0.1755385702549024"/>
+    <nuclide name="Zr96" wo="0.028882988046770485"/>
+    <nuclide name="Sn112" wo="0.0001325869650089989"/>
+    <nuclide name="Sn114" wo="9.18244938630758e-05"/>
+    <nuclide name="Sn115" wo="4.7719058992548675e-05"/>
+    <nuclide name="Sn116" wo="0.0020584231441515095"/>
+    <nuclide name="Sn117" wo="0.001096647338091086"/>
+    <nuclide name="Sn118" wo="0.0034879812785975975"/>
+    <nuclide name="Sn119" wo="0.0012475771051862216"/>
+    <nuclide name="Sn120" wo="0.004771539508846635"/>
+    <nuclide name="Sn122" wo="0.0006894094862319449"/>
+    <nuclide name="Sn124" wo="0.0008762916210303821"/>
+  </material>
+  <material id="5" name="G-348 Graphite" temperature="914">
+    <density value="1800" units="kg/m3"/>
+    <nuclide name="C0" ao="1.0"/>
+    <sab name="c_Graphite"/>
+  </material>
+  <material id="6" name="Stainless Steel 316" temperature="900">
+    <density value="6363.0" units="kg/m3"/>
+    <nuclide name="Si28" ao="0.009222968"/>
+    <nuclide name="Si29" ao="0.00046831600000000003"/>
+    <nuclide name="Si30" ao="0.000308716"/>
+    <nuclide name="P31" ao="0.00045"/>
+    <nuclide name="S32" ao="0.00028512222"/>
+    <nuclide name="S33" ao="2.24607e-06"/>
+    <nuclide name="S34" ao="1.258797e-05"/>
+    <nuclide name="S36" ao="4.373999999999999e-08"/>
+    <nuclide name="Cr50" ao="0.007821"/>
+    <nuclide name="Cr52" ao="0.1508202"/>
+    <nuclide name="Cr53" ao="0.0171018"/>
+    <nuclide name="Cr54" ao="0.004257"/>
+    <nuclide name="Mn55" ao="0.02"/>
+    <nuclide name="Fe54" ao="0.035990587500000004"/>
+    <nuclide name="Fe56" ao="0.564975255"/>
+    <nuclide name="Fe57" ao="0.0130477425"/>
+    <nuclide name="Fe58" ao="0.001736415"/>
+    <nuclide name="Ni58" ao="0.09530766"/>
+    <nuclide name="Ni60" ao="0.03671234"/>
+    <nuclide name="Ni61" ao="0.0015958600000000002"/>
+    <nuclide name="Ni62" ao="0.0050883000000000005"/>
+    <nuclide name="Ni64" ao="0.0012958400000000001"/>
+    <nuclide name="Mo92" ao="0.0043947000000000005"/>
+    <nuclide name="Mo94" ao="0.0027560999999999996"/>
+    <nuclide name="Mo95" ao="0.0047619"/>
+    <nuclide name="Mo96" ao="0.005001899999999999"/>
+    <nuclide name="Mo97" ao="0.0028746"/>
+    <nuclide name="Mo98" ao="0.0072876"/>
+    <nuclide name="Mo100" ao="0.0029232"/>
+    <nuclide name="C0" ao="0.0008"/>
+  </material>
+  <material id="7" name="Sodium" temperature="900">
+    <density value="161.01" units="kg/m3"/>
+    <nuclide name="Na23" ao="1.0"/>
+  </material>
+  <material id="8" name="BeO" temperature="900">
+    <density value="3005" units="kg/m3"/>
+    <nuclide name="Be9" ao="1.0"/>
+    <nuclide name="O16" ao="0.999621"/>
+    <nuclide name="O17" ao="0.000379"/>
+    <sab name="c_Be_in_BeO"/>
+  </material>
+</materials>

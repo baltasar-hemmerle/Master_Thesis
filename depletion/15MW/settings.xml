@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>25000</particles>
+  <batches>250</batches>
+  <inactive>50</inactive>
+  <generations_per_batch>4</generations_per_batch>
+  <source type="independent" strength="1.0" particle="neutron">
+    <space type="box">
+      <parameters>-111 -111 -102.5 111 111 102.5</parameters>
+    </space>
+    <constraints>
+      <domain_type>cell</domain_type>
+      <domain_ids>39 40 41</domain_ids>
+      <fissionable>true</fissionable>
+    </constraints>
+  </source>
+  <output>
+    <tallies>false</tallies>
+  </output>
+  <photon_transport>true</photon_transport>
+  <temperature_method>interpolation</temperature_method>
+  <temperature_range>250 2500</temperature_range>
+</settings>

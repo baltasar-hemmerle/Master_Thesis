@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="7" region="-50 1 -8" universe="1"/>
+  <cell id="2" material="6" region="50 -51 1 -8" universe="1"/>
+  <cell id="3" material="5" region="51 1 -67" universe="1"/>
+  <cell id="4" material="8" region="51 67 -8" universe="1"/>
+  <cell id="5" material="3" region="59 -60 1 -67" universe="2"/>
+  <cell id="6" material="4" region="60 -61 1 -67" universe="2"/>
+  <cell id="7" material="1" region="-59 1 -53" universe="2"/>
+  <cell id="8" material="1" region="-59 53 -54" universe="2"/>
+  <cell id="9" material="1" region="-59 54 -55" universe="2"/>
+  <cell id="10" material="1" region="-59 55 -56" universe="2"/>
+  <cell id="11" material="1" region="-59 56 -67" universe="2"/>
+  <cell id="12" material="8" region="67 -8" universe="2"/>
+  <cell id="13" material="5" region="61 1 -67" universe="2"/>
+  <cell id="14" material="5" region="1 -67" universe="3"/>
+  <cell id="15" material="8" region="67 -8" universe="3"/>
+  <cell id="16" fill="4" region="-69 70 -71 -74 72 73 1 -8" universe="5"/>
+  <cell id="17" material="8" region="(69 | -70 | 71 | 74 | -72 | -73) 67 -8" universe="5"/>
+  <cell id="18" material="5" region="(69 | -70 | 71 | 74 | -72 | -73) 1 -67" universe="5"/>
+  <cell id="19" material="7" region="-50 1 -8" universe="6"/>
+  <cell id="20" material="6" region="50 -51 1 -8" universe="6"/>
+  <cell id="21" material="5" region="51 1 -67" universe="6"/>
+  <cell id="22" material="8" region="51 67 -8" universe="6"/>
+  <cell id="23" material="3" region="59 -60 1 -67" universe="7"/>
+  <cell id="24" material="4" region="60 -61 1 -67" universe="7"/>
+  <cell id="25" material="2" region="-59 1 -53" universe="7"/>
+  <cell id="26" material="2" region="-59 53 -54" universe="7"/>
+  <cell id="27" material="2" region="-59 54 -55" universe="7"/>
+  <cell id="28" material="2" region="-59 55 -56" universe="7"/>
+  <cell id="29" material="2" region="-59 56 -67" universe="7"/>
+  <cell id="30" material="8" region="67 -8" universe="7"/>
+  <cell id="31" material="5" region="61 1 -67" universe="7"/>
+  <cell id="32" material="5" region="1 -67" universe="8"/>
+  <cell id="33" material="8" region="67 -8" universe="8"/>
+  <cell id="34" fill="9" region="-69 70 -71 -74 72 73 1 -8" universe="10"/>
+  <cell id="35" material="8" region="(69 | -70 | 71 | 74 | -72 | -73) 67 -8" universe="10"/>
+  <cell id="36" material="5" region="(69 | -70 | 71 | 74 | -72 | -73) 1 -67" universe="10"/>
+  <cell id="37" material="5" region="1 -67" universe="11"/>
+  <cell id="38" material="8" region="67 -8" universe="11"/>
+  <cell id="39" fill="12" region="-9 1 -8" universe="13"/>
+  <cell id="40" material="8" region="-10 7 -1" universe="13"/>
+  <cell id="41" material="8" region="9 -10 1 -8" universe="13"/>
+  <hex_lattice id="4" n_rings="9" orientation="x">
+    <pitch>2.4</pitch>
+    <outer>3</outer>
+    <center>0 0</center>
+    <universes>
+        2 1 2 2 1 2 2 1 2
+       1 2 2 1 2 2 1 2 2 1
+      2 2 1 2 2 1 2 2 1 2 2
+     2 1 2 2 1 2 2 1 2 2 1 2
+    1 2 2 1 2 2 1 2 2 1 2 2 1
+   2 2 1 2 2 1 2 2 1 2 2 1 2 2
+  2 1 2 2 1 2 2 1 2 2 1 2 2 1 2
+ 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1
+2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2
+ 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1
+  2 1 2 2 1 2 2 1 2 2 1 2 2 1 2
+   2 2 1 2 2 1 2 2 1 2 2 1 2 2
+    1 2 2 1 2 2 1 2 2 1 2 2 1
+     2 1 2 2 1 2 2 1 2 2 1 2
+      2 2 1 2 2 1 2 2 1 2 2
+       1 2 2 1 2 2 1 2 2 1
+        2 1 2 2 1 2 2 1 2</universes>
+  </hex_lattice>
+  <hex_lattice id="9" n_rings="9" orientation="x">
+    <pitch>2.4</pitch>
+    <outer>8</outer>
+    <center>0 0</center>
+    <universes>
+        7 6 7 7 6 7 7 6 7
+       6 7 7 6 7 7 6 7 7 6
+      7 7 6 7 7 6 7 7 6 7 7
+     7 6 7 7 6 7 7 6 7 7 6 7
+    6 7 7 6 7 7 6 7 7 6 7 7 6
+   7 7 6 7 7 6 7 7 6 7 7 6 7 7
+  7 6 7 7 6 7 7 6 7 7 6 7 7 6 7
+ 6 7 7 6 7 7 6 7 7 6 7 7 6 7 7 6
+7 7 6 7 7 6 7 7 6 7 7 6 7 7 6 7 7
+ 6 7 7 6 7 7 6 7 7 6 7 7 6 7 7 6
+  7 6 7 7 6 7 7 6 7 7 6 7 7 6 7
+   7 7 6 7 7 6 7 7 6 7 7 6 7 7
+    6 7 7 6 7 7 6 7 7 6 7 7 6
+     7 6 7 7 6 7 7 6 7 7 6 7
+      7 7 6 7 7 6 7 7 6 7 7
+       6 7 7 6 7 7 6 7 7 6
+        7 6 7 7 6 7 7 6 7</universes>
+  </hex_lattice>
+  <hex_lattice id="12" n_rings="3">
+    <pitch>36.373066958946424</pitch>
+    <outer>11</outer>
+    <center>0 0</center>
+    <universes>
+    10
+  10  10
+10  5   10
+  5   5 
+10  5   10
+  5   5 
+10  5   10
+  10  10
+    10</universes>
+  </hex_lattice>
+  <surface id="1" type="z-plane" coeffs="-87.5"/>
+  <surface id="7" type="z-plane" boundary="vacuum" coeffs="-102.5"/>
+  <surface id="8" type="z-plane" boundary="vacuum" coeffs="102.5"/>
+  <surface id="9" type="z-cylinder" coeffs="0.0 0.0 91"/>
+  <surface id="10" type="z-cylinder" boundary="vacuum" coeffs="0.0 0.0 111"/>
+  <surface id="50" type="z-cylinder" coeffs="0.0 0.0 0.85"/>
+  <surface id="51" type="z-cylinder" coeffs="0.0 0.0 1.2"/>
+  <surface id="53" type="z-plane" coeffs="-52.5"/>
+  <surface id="54" type="z-plane" coeffs="-17.5"/>
+  <surface id="55" type="z-plane" coeffs="17.5"/>
+  <surface id="56" type="z-plane" coeffs="52.5"/>
+  <surface id="59" type="z-cylinder" coeffs="0.0 0.0 0.6"/>
+  <surface id="60" type="z-cylinder" coeffs="0.0 0.0 0.61"/>
+  <surface id="61" type="z-cylinder" coeffs="0.0 0.0 0.7"/>
+  <surface id="67" type="z-plane" coeffs="87.5"/>
+  <surface id="69" type="y-plane" coeffs="18.082610431019077"/>
+  <surface id="70" type="y-plane" coeffs="-18.082610431019077"/>
+  <surface id="71" type="plane" coeffs="1.7320508075688772 1.0 0.0 36.165220862038154"/>
+  <surface id="72" type="plane" coeffs="-1.7320508075688772 1.0 0.0 -36.165220862038154"/>
+  <surface id="73" type="plane" coeffs="1.7320508075688772 1.0 0.0 -36.165220862038154"/>
+  <surface id="74" type="plane" coeffs="-1.7320508075688772 1.0 0.0 36.165220862038154"/>
+</geometry>
